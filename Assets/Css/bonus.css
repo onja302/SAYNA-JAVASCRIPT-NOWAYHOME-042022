@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+    
+  }
+  
+  @font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../police/far-from-homecoming.otf) format('OpenType ');
+  }
+  h1{
+    font-family: 'far_from_homecoming';
+  }
+  
+  /*design navigation*/
+  #navigation{
+    background-color: var(--rouge)
+  }
+  #navigation a:hover{
+    color: #e0751c8c;
+  
+  }
+  #navigation a{
+    color: white;
+    text-decoration: none;
+  }
+  footer{
+    background-color: #020202;
+  }
+  footer a{
+    text-decoration: none;
+    color: var(--rouge);
+  }
+  footer .dropdown{
+    background-color: var(--rouge);
+    color: var(--blanc);
+    border-radius: 20px;
+    width: 25%;
+  }

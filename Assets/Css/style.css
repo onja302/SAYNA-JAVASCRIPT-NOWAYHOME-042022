@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+    
+  }
+  
+  @font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../police/far-from-homecoming.otf) format('OpenType ');
+  }
+  h1{
+    font-family: 'far_from_homecoming';
+  }
+  
+  /*design navigation*/
+  #navigation{
+    background-color: var(--rouge)
+  }
+  #navigation a:hover{
+    color: #e0751c8c;
+  
+  }
+  #navigation a{
+    color: white;
+    text-decoration: none;
+  }
+  /*design spiderman*/
+  #spiderman {
+    background-image: url(../Illustration/img1.png);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;  
+  }
+  #spiderman button{
+    color: var(--rouge);
+    border-radius: 10px;
+    width: 20%;
+  
+  }
+  #spiderman .opac{
+    border: 2px solid;
+    border-color: var(--blanc);
+   
+  }
+  /*design cinema*/
+  #cinema{
+    background-color: var(--rouge);
+    background-size: cover;
+    background-position: center;
+    text-align: justify;
+  }
+  #cinema .cinema-text{
+    text-align: justify;
+    text-justify: inter-word ;
+  }
+  #spiderman .box{
+    position: relative;
+    top: 55%;
+  }
+  .card{
+    background-color: #b113136c;
+    border: none;
+  }
+  .button-card{
+    border-radius: 20px;
+    color: var(--rouge);
+    margin-left: 25%;
+  }
+  /*design formulaire*/
+#formulaire{
+  background-color: var(--blue);
+}
+.form{
+  border-color: var(--noir);
+  border-radius: 20px;
+  width: 20rem;
+}
+#formulaire .envoyer{
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: var(--blanc);
+  color: var(--blanc);
+  margin-left: 10%;
+}
+/*design newsletter*/
+#newsletter{
+  background-color: var(--rouge);
+}
+#newsletter .box{
+  position: relative;
+  top: 45%;
+}
+#newsletter .letterform{
+  background-color: #b1131369;
+  color: rgba(255, 255, 255, 0.918);
+  border-color: var(--blanc);
+  border-radius: 20px;
+  width: 25rem;
+}
+#newsletter .envoyer{
+border-radius: 20px;
+color: var(--rouge);
+background-color: var(--blanc);
+
+}
+#newsletter a {
+  color: var(--blanc);
+}
+::placeholder{
+  color: white;
+  opacity: 1;
+}
+footer{
+  background-color: #050505;
+  padding: 20px 0;
+}
+.footer{
+  color: #faf5f5;
+  text-align: center;
+  font-size: 13px;
+}
+.navigation-footer{
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+  padding: 2em 0;
+}
+.navigation-footer .list1, .navigation-footer .list2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-footer li{
+  padding: 30px;
+}
+.navigation-footer li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.navigation-footer  .list2 .formselect{
+  background-color:var(--rouge);
+  border-radius: 50px;
+  width: 100px;
+  color: #faf5f5;
+  padding: 3px 15px;
+}
+footer .media img{
+  background-color: var(--rouge);
+  color: #585555;
+  padding: 5px;
+  border-radius: 50%;
+}
+footer .media{
+  padding: 15px;
+  margin-bottom: 10px;
+}

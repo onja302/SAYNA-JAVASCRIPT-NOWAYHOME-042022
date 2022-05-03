@@ -1,0 +1,162 @@
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+}
+/*navigation*/
+nav{
+    background-color: var(--blue);
+    padding: 16px 0;
+}
+
+
+/*entourage*/
+#entourage{
+    background-color: var(--blue);
+    padding: 1.5em;
+}
+
+#entourage h1{
+    font-family: 'far-from-homecoming';
+}
+#entourage .entourage-image2{
+    margin-top: -100px;
+    margin-left: 200px;
+}
+#entourage .entourage-image3{
+    display: flex;
+    justify-content: center;
+    width: 43%;
+    margin: 0 auto;
+}
+#entourage .entourage-text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+#valeur{
+    background-color: var(--blue)
+  }
+  /*design fondation*/
+#fondation {
+    background-image: url(../Illustration/img20.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;  
+}
+#fondation .box{
+    position: relative;
+    top: 25%;
+}
+/*design force*/
+#force{
+  background-color: var(--blue);
+}
+#force .container span{
+  font-weight: bold;
+}
+.force-text, .heros-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#force .container .box{
+  position: relative;
+  top: 10%;
+}
+/*avengers*/
+#avengers{
+    background-color: var(--rouge);
+    background-image: url(../Illustration/img32.png);
+    background-size: 875px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+#avengers h1{
+    font-family: 'far-from-homecoming';
+}
+#avengers .avengers-text{
+    text-align: justify;
+    margin-left: 0;
+    font-size: 13px;
+}
+.avengers-img{
+    width: 200px;
+    margin: 10px;
+}
+
+/*univers*/
+#univers{
+    background-image: url(../Illustration/img33.png);
+    background-color: var(--blue);
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#univers h3{
+    font-family: 'far-from-homecoming';
+}
+#univers .univers-content{
+    width: 500px;
+    background-color: #114b9273;
+    padding: 15px 35px;
+    position: relative;
+    left: 50%;
+    top: 3%;
+}
+#univers .univers-text{
+    text-align: justify;
+    font-size: 15px;
+}
+
+#fondation{
+    background-image: url(../Illustration/img20.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+fondation h1{
+    font-family: 'far-from-homecoming';
+    font-size: 3em;
+    padding-top: 1.5em;
+}
+
+/*hero*/
+#hero{
+    background-image: url(../Illustration/img19.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*couleur footer*/
+.navigation-footer  .list2 .formselect{
+    background-color: var(--blue);
+    border-radius: 50px;
+    width: 100px;
+    color: #6a5c5c;
+    padding: 3px 15px;
+}
+footer .media img{
+    background-color: var(--blue);
+    color: #faf5f5;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .valeurs-head{
+        text-align: center;
+    }
+    .valeurs-head h3{
+        font-size: 15px;
+        padding: 0;
+    }
+    #valeurs .video iframe{
+        width: 320px;
+    }
+}

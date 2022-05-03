@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Raleway:ital,wght@0,100;1,400&display=swap');
+@font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../police/far-from-homecoming.otf) format('OpenType ');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteneur{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+}
+ul{
+    list-style-type: none;
+}
+/*navigation*/
+nav{
+    background-color: var(--jaune);
+    padding: 16px 0;
+}
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .brand img{
+    padding-left: 20px;
+}
+nav .brand img:nth-child(2){
+    padding-bottom: 15px;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu ul li {
+    margin-left: 70px;
+    font-size: 20px;
+    
+}
+nav .menu ul li a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+/*hero*/
+#hero{
+    background-image: url(../Illustration/img7.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#hero .description{
+    color: var(--blanc);
+    font-size: 35px;
+    font-family: Montserrat;
+}
+Hero div{
+    color: var(--blanc);
+}
+#hero .titre{
+    font-family: 'far_from_homecoming';
+    font-size: 5em;
+    font-weight: 100;
+    color: var(--blanc);
+}
+#hero .description{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#hero .box{
+    position: relative;
+    top: 25%;
+}
+/*design des card*/
+#card-section {
+    background-color: var(--jaune);
+    padding-top: 30px;
+}
+#card-section .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#card-section .card .card-hero{
+    border: 6px solid #050505;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 350px;
+    height: 600px;
+    margin: 20px;
+    box-shadow: 0 4px 8px;
+}
+#card-section .card .card-hero .card-image{
+    /*background-image: url(../Illustration/img8.png);*/
+    background-color: aqua;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+
+}
+#card-section .card .card-hero:hover{
+    background-color: #050505;
+    color: #faf5f5;
+    transform: scale(1.1);
+}
+/*image sur chaque carte*/
+#card-section .card .card-hero .card-image1{
+    background-image: url(../Illustration/img8.png);
+}
+#card-section .card .card-hero  .card-image2{
+    background-image: url(../Illustration/img9.png);
+}
+#card-section .card .card-hero .card-image3{
+    background-image: url(../Illustration/img10.png);
+}
+#card-section .card .card-hero .card-image4{
+    background-image: url(../Illustration/img11.png);
+}
+#card-section .card .card-hero .card-image5{
+    background-image: url(../Illustration/img12.png);
+}
+#card-section .card .card-hero .card-image6{
+    background-image: url(../Illustration/img13.png);
+}
+#card-section .card .card-hero .card-image7{
+    background-image: url(../Illustration/img14.png);
+}
+#card-section .card .card-hero .card-image8{
+    background-image: url(../Illustration/img15.png);
+}
+#card-section .card .card-hero .card-image9{
+    background-image: url(../Illustration/img16.png);
+}
+#card-section .card .card-hero .card-image10{
+    background-image: url(../Illustration/img17.png);
+}
+#card-section .card .card-hero .card-image11{
+    background-image: url(../Illustration/img18.png);
+}
+#card-section .card .card-hero .card-image12{
+    background-image: url(../Illustration/img19.png);
+}
+#card-section .card .card-hero .card-image13{
+    background-image: url(../Illustration/img20.png);
+}
+#card-section .card .card-hero .card-content{
+    margin: 15px;
+    font-size: 15px;
+
+}
+#card-section .card .card-hero .card-title{
+    text-align: center;
+    font-weight: bold;
+}
+#card-section .card .card-hero .card-content p{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#card-section .card .card-hero .card-content span{
+    text-align: center;
+    font-weight: bold;
+}
+/*
+footer{
+    background-color: #020202;
+  }
+  footer a{
+    text-decoration: none;
+    color: var(--rouge);
+  }
+  footer .dropdown{
+    background-color: var(--rouge);
+    color: var(--blanc);
+    border-radius: 20px;
+    width: 25%;
+  }*/
+  footer{
+    background-color: #050505;
+    padding: 20px 0;
+}
+.footer{
+    color: #faf5f5;
+    text-align: center;
+    font-size: 13px;
+}
+.navigation-footer{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    padding: 2em 0;
+}
+.navigation-footer .list1, .navigation-footer .list2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-footer li{
+    padding: 30px;
+}
+.navigation-footer li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.navigation-footer  .list2 .formselect{
+    background-color: #F1C530;
+    border-radius: 50px;
+    width: 100px;
+    color: #faf5f5;
+    padding: 3px 15px;
+}
+footer .media img{
+    background-color: #F1C530;
+    color: #faf5f5;
+    padding: 5px;
+    border-radius: 50%;
+}
+footer .media{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
